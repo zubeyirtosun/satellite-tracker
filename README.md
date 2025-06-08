@@ -283,32 +283,6 @@ satellite-tracker/
 
 ---
 
-## 🤝 Katkıda Bulunma
-
-Projeye katkıda bulunmak istiyorsanız:
-
-1. **Fork** edin
-2. **Feature branch** oluşturun (`git checkout -b feature/amazing-feature`)
-3. **Commit** yapın (`git commit -m 'Add amazing feature'`)
-4. **Push** edin (`git push origin feature/amazing-feature`)
-5. **Pull Request** açın
-
-### **Katkı Alanları**
-- 🌍 Yeni uydu verileri ekleme
-- 🎨 UI/UX iyileştirmeleri
-- 🚀 Performans optimizasyonları
-- 📱 Mobil uygulama desteği
-- 🌐 Çoklu dil desteği
-- 📊 Yeni görselleştirme türleri
-
----
-
-## 📄 Lisans
-
-Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
-
----
-
 ## 🙏 Teşekkürler
 
 - **[Where The ISS At API](http://wheretheiss.at/)** - ISS konum verileri
@@ -326,11 +300,3 @@ Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 ![GitHub license](https://img.shields.io/github/license/zubeyirtosun/satellite-tracker)
 
 ---
-
-<div align="center">
-
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
-
-Made with ❤️ and ☕ by Turkish Developers
-
-</div>
