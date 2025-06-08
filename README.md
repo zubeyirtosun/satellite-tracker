@@ -318,12 +318,3 @@ Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 - **[OpenStreetMap](https://www.openstreetmap.org/)** - Açık kaynak harita verileri
 
 ---
-
-## 📈 İstatistikler
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/satellite-tracker?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/satellite-tracker?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/satellite-tracker)
-![GitHub license](https://img.shields.io/github/license/yourusername/satellite-tracker)
-
----
