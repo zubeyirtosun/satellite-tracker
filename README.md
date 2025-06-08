@@ -309,16 +309,6 @@ Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 
 ---
 
-## 👨‍💻 Geliştirici
-
-**[Adınız]**
-- 🌐 Website: [your-website.com](https://your-website.com)
-- 📧 Email: your-email@example.com
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 🐦 Twitter: [@yourusername](https://twitter.com/yourusername)
-
----
-
 ## 🙏 Teşekkürler
 
 - **[Where The ISS At API](http://wheretheiss.at/)** - ISS konum verileri
@@ -337,11 +327,3 @@ Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 ![GitHub license](https://img.shields.io/github/license/yourusername/satellite-tracker)
 
 ---
-
-<div align="center">
-
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
-
-Made with ❤️ and ☕ by Turkish Developers
-
-</div>
