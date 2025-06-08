@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a237e 50%, #000051 100%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -14,18 +17,181 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h1 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.nav-button.active {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border-color: transparent;
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+}
+
+.main-content {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.iss-tracker {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  min-height: 70vh;
+  height: auto;
+}
+
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.iss-info {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.iss-info h3 {
+  margin-top: 0;
+  color: #4ecdc4;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.info-value {
+  font-family: 'Courier New', monospace;
+  color: #4ecdc4;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .iss-tracker {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  
+  .predictor-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .notification-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .frequency-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .App-header h1 {
+    font-size: 2rem;
+  }
+  
+  .navigation {
+    gap: 0.5rem;
+  }
+  
+  .nav-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  /* Global şehir seçimi için responsive */
+  .city-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+    max-height: 120px !important;
+  }
+  
+  /* Frekans planlayıcı responsive */
+  .frequency-panel {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .frequency-list {
+    max-height: 300px !important;
+  }
+  
+  .session-item {
+    padding: 0.8rem !important;
+    font-size: 0.85rem !important;
+  }
 }
 
 @keyframes App-logo-spin {
