@@ -9,7 +9,7 @@
 
 **Gerçek zamanlı uydu takibi, 3D görselleştirme ve geçiş tahminleri**
 
-[🚀 Demo](#demo) • [📋 Özellikler](#özellikler) • [⚡ Kurulum](#kurulum) • [📸 Ekran Görüntüleri](#ekran-görüntüleri)
+🌐 **[Canlı Demo](https://zubeyirtosun.github.io/satellite-tracker/)** • [📋 Özellikler](#özellikler) • [⚡ Kurulum](#kurulum) • [📸 Ekran Görüntüleri](#ekran-görüntüleri)
 
 </div>
 
@@ -128,7 +128,7 @@
 
 ### **1. Projeyi İndirin**
 ```bash
-git clone https://github.com/kullaniciadi/satellite-tracker.git
+git clone https://github.com/zubeyirtosun/satellite-tracker.git
 cd satellite-tracker
 ```
 
@@ -194,7 +194,7 @@ npm run build
 
 ## 🚀 Demo
 
-🌐 **[Canlı Demo](https://your-demo-url.vercel.app)**
+🌐 **[Canlı Demo](https://zubeyirtosun.github.io/satellite-tracker/)**
 
 Demo hesabında tüm özellikler mevcuttur:
 - ✅ Gerçek zamanlı uydu takibi
@@ -318,3 +318,19 @@ Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 - **[OpenStreetMap](https://www.openstreetmap.org/)** - Açık kaynak harita verileri
 
 ---
+## 📈 İstatistikler
+
+![GitHub stars](https://img.shields.io/github/stars/zubeyirtosun/satellite-tracker?style=social)
+![GitHub forks](https://img.shields.io/github/forks/zubeyirtosun/satellite-tracker?style=social)
+![GitHub issues](https://img.shields.io/github/issues/zubeyirtosun/satellite-tracker)
+![GitHub license](https://img.shields.io/github/license/zubeyirtosun/satellite-tracker)
+
+---
+
+<div align="center">
+
+**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
+
+Made with ❤️ and ☕ by Turkish Developers
+
+</div>

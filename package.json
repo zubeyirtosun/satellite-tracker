@@ -2,7 +2,7 @@
   "name": "satellite-tracker",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/satellite-tracker",
+  "homepage": "https://zubeyirtosun.github.io/satellite-tracker",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^10.1.2",

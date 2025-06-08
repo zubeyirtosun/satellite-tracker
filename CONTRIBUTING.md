@@ -33,7 +33,7 @@ cd satellite-tracker
 
 3. **Upstream remote ekleyin**
 ```bash
-git remote add upstream https://github.com/original-owner/satellite-tracker.git
+git remote add upstream https://github.com/zubeyirtosun/satellite-tracker.git
 ```
 
 4. **Bağımlılıkları yükleyin**
